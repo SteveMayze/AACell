@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:AACell-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,6 +74,8 @@ F 0 "U1" H 5250 1700 60  0000 C CNN
 F 1 "TPS776xx" H 5000 2600 60  0000 C CNN
 F 2 "AACell-Footprint:SOIC_5.4_1.27" H 4800 2750 60  0001 C CNN
 F 3 "" H 4800 2750 60  0001 C CNN
+F 4 "http://www.produktinfo.conrad.com/datenblaetter/1200000-1299999/001259282-da-01-en-IC_REG_LDO_1_5V_0_5_TPS77615D_SOIC_8_TID.pdf" H 5000 2350 60  0001 C CNN "Link"
+F 5 "TPS77615D" H 5000 2350 60  0001 C CNN "Comp_Name"
 	1    5000 2350
 	1    0    0    -1  
 $EndComp
@@ -128,26 +131,7 @@ Wire Wire Line
 	4200 2450 4200 3250
 Connection ~ 4200 3250
 Wire Wire Line
-	5600 1900 6750 1900
-$Comp
-L R R1
-U 1 1 5AEF5220
-P 6200 2150
-F 0 "R1" V 6280 2150 50  0000 C CNN
-F 1 "250kΩ" V 6100 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6130 2150 50  0001 C CNN
-F 3 "" H 6200 2150 50  0001 C CNN
-	1    6200 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 1900 6200 2000
-Connection ~ 6200 1900
-Wire Wire Line
 	5600 2450 6750 2450
-Wire Wire Line
-	6200 2300 6200 2450
-Connection ~ 6200 2450
 Wire Wire Line
 	5600 2600 5900 2600
 Wire Wire Line
@@ -176,8 +160,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 3200 5000 3200
 Connection ~ 5000 3200
-Text Label 6750 1900 2    60   ~ 0
-~RESET~/PG
 Text Label 6750 2450 2    60   ~ 0
 VOUT
 NoConn ~ 2850 2200
@@ -207,4 +189,25 @@ Connection ~ 1650 2000
 Wire Wire Line
 	1850 2200 1650 2200
 Connection ~ 1650 2200
+Text Label 6750 1900 2    60   ~ 0
+~RESET~/PG
+Wire Wire Line
+	5600 1900 6750 1900
+Connection ~ 6200 1900
+Wire Wire Line
+	6200 1900 6200 2000
+$Comp
+L R R1
+U 1 1 5AEF5220
+P 6200 2150
+F 0 "R1" V 6280 2150 50  0000 C CNN
+F 1 "250kΩ" V 6100 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6130 2150 50  0001 C CNN
+F 3 "" H 6200 2150 50  0001 C CNN
+	1    6200 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 2450
+Wire Wire Line
+	6200 2300 6200 2450
 $EndSCHEMATC

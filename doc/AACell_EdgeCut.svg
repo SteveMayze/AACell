@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="AACell_EdgeCut.svg"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,28 +26,24 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8822254"
-     inkscape:cx="455.34147"
-     inkscape:cy="388.7972"
+     inkscape:cx="758.46917"
+     inkscape:cy="211.1018"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="960"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:snap-bbox-edge-midpoints="true"
      showguides="true"
-     inkscape:guide-bbox="true">
-    <sodipodi:guide
-       position="139.54773,156.93314"
-       orientation="0,1"
-       id="guide838"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
+     inkscape:guide-bbox="true"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -154,17 +150,37 @@
        x="181.69789"
        y="113.31698" />
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.96000004;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 484.61328 677.2832 L 484.61328 681.0625 L 467.60547 681.0625 L 467.60547 772.71484 C 476.16941 772.71484 483.5524 772.75736 490.84961 772.78711 L 490.84961 723.68359 L 497.27344 723.68359 L 497.27344 772.80273 C 505.07368 772.82428 512.61496 772.81972 520.51758 772.71484 L 520.51758 681.0625 L 503.50977 681.0625 L 503.50977 677.2832 L 484.61328 677.2832 z "
-       transform="scale(0.26458333)"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.25400001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 183.82056,256.01301 v -0.99994 h 4.49998 v -24.24968 c -2.26587,0 -4.21929,-0.0113 -6.15001,-0.0191 v 12.99197 h -1.69964 v -12.99611 c -2.06381,-0.006 -4.05911,-0.004 -6.15001,0.0233 v 24.24968 h 4.49998 v 0.99994 z"
        id="path1419"
        inkscape:export-xdpi="1000"
-       inkscape:export-ydpi="1000" />
+       inkscape:export-ydpi="1000"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.96000004;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="M 673.58984 671.61328 L 673.58984 675.39258 L 656.58203 675.39258 L 656.58203 860.58984 L 669.81055 860.58984 L 669.81055 862.47852 L 696.26758 862.47852 L 696.26758 860.58984 L 709.49414 860.58984 L 709.49414 675.39258 L 692.48633 675.39258 L 692.48633 671.61328 L 686.25 671.61328 L 686.25 720.74805 L 679.82617 720.74805 L 679.82617 671.61328 L 673.58984 671.61328 z "
-       transform="scale(0.26458333)"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.25400001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 178.82086,177.69768 v 0.99994 h -4.49998 v 49.00011 h 3.50005 v 0.49971 h 7.00009 v -0.49971 h 3.49952 v -49.00011 h -4.49998 v -0.99994 h -1.65003 v 13.00024 h -1.69964 v -13.00024 z"
        id="path1423"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.25400001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect865"
+       width="2.0320001"
+       height="3.4360662"
+       x="178.05637"
+       y="227.68787"
+       ry="5.9081367e-007"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <rect
+       ry="5.9836572e-007"
+       y="227.82843"
+       x="182.537"
+       height="3.4799874"
+       width="2.0320001"
+       id="rect867"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.25400001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="1000"
        inkscape:export-ydpi="1000" />
   </g>
